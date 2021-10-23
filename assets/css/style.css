@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
@@ -48,6 +49,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
   /* HEADER / NAVBAR STYLES END */
@@ -108,15 +110,18 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -135,6 +140,7 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px; 
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -147,6 +153,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
 } 
   /* HERO STYLES END */
 
@@ -312,14 +319,16 @@ section {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input, 
+.contact-form textarea {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -328,6 +337,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -338,6 +348,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-info a {
@@ -378,7 +389,8 @@ section {
     header nav ul li a {
         font-size: 20px;
     }
-    footer h2 {
+    footer h2,
+    footer div {
         text-align: center;
         width: 100%;
     }
@@ -409,7 +421,7 @@ section {
         text-align: center;
     }
     .step-info {
-        flex-direction: 2 100%;
+        flex: 2 100%;
         text-align: center;
         justify-content: center;
     }
